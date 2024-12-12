@@ -1,0 +1,117 @@
+/* Basic resets */
+nav {
+    font-family: Arial, sans-serif;
+}
+
+/* Container styling */
+nav {
+    position: relative;
+    background-color: #9e7209;
+    padding: 0.3em;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+/* Burger Icon - Visible on mobile */
+.burger {
+    display: block;
+    font-size: 1.5em;
+    color: white;
+    cursor: pointer;
+    background: none;
+    border-color: black;
+}
+
+/* Cantor Logo On NavBar */
+.logo { 
+    max-width: 100;
+    height: auto;
+    padding: 1px;
+    position: relative;
+  }
+
+/* Text On Navbar CSS Style */
+
+.navText {
+    color: azure;
+    text-decoration: none;
+    font-weight: bold;
+    position: relative;
+    margin-right: 20px;
+    font-size: 25px;   
+    text-align: left;
+}
+/* Mobile Menu CSS Style */
+menu {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    background-color: #473302 ;
+    width: 100%;
+    max-height: 0;
+    overflow: hidden; /* hides text after it is closed */
+    position: absolute;
+    top: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+menu.active {
+    transition: max-height 0.5s ease;
+    max-height: 400px;
+    z-index: 1;
+}
+
+/* Mobile Link CSS Style */
+menu li a {
+    color: white;
+    padding: 0.5em 1em;
+    border-left: 10px solid #a58334;
+    display: block;
+    transition: background-color 0.3s;
+    text-decoration: none;
+}
+
+menu li a:hover {
+    background-color: #966b07;
+}
+
+/* Desktop */
+@media (min-width: 768px) {
+
+    /* Hide burger icon on desktop */
+    .burger {
+        display: none;
+    }
+
+    /* horizontal menu nav bar */
+    menu {
+        display: flex;
+        flex-direction: row;
+        gap: 0em;
+        position: static;
+        max-height: none;
+        width: auto;
+    }
+
+    /* Desktop Link Styling CSS*/
+    menu li a {
+        padding-left: 1rem;
+        display: flex;
+        border-top: none;
+        border-left: 5px solid lightgrey;
+        border-right: 5px solid lightgrey;
+
+   }
+
+    /* Text on navbar */
+    .navText
+    {
+        font-size: 25px;
+        text-decoration: none;
+
+        
+}
+}

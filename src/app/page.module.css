@@ -1,0 +1,267 @@
+/* default (mobile) styling */
+.sectionTitles {
+  text-align: center;
+  font: 2rem;
+  margin: 1rem 0;
+  text-shadow: none;
+}
+
+/* Home */
+.aboutUsContainer {
+  display: flex;
+  flex-direction: column-reverse;
+  padding: 1rem;
+  gap: 1rem;
+  align-items: center;
+  background-color: rgb(255, 201, 180);
+}
+.aboutUsImage {
+  max-width: 50%;
+  height: auto; 
+}
+.aboutUsInfo {
+  text-align: justify;
+  font-size: 1rem;
+  max-width: 800px;
+}
+
+/* city map section */
+.cityMapContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  gap: 1rem;
+  align-items: center;
+}
+.cityMapImage {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+}
+.cityMapInfo {
+  font-size: 1rem;
+  text-align: center;
+  max-width: 100%;
+}
+
+/* students */
+.studentsContainer{
+  display: flex;
+  flex-direction: column-reverse;
+  padding: 1rem;
+  gap: 1rem;
+  align-items: center;
+  background-color: rgb(255, 201, 180);
+}
+.studentfacilitiesList, .studentsInfo{
+  text-align: left;
+  font-size: 1.1em;
+}
+
+/* Facilities */
+.faciltiesCantorContainer,
+.faciltiesImagesContainer {
+  flex: 1;
+  flex-direction: column;
+  padding: 1rem;
+  gap: 1rem;
+  background-color: rgb(255, 201, 180);
+  font-size: 1rem;
+}
+.facilitiesList, .studentfacilitiesList {
+  padding-left: 20px;
+  margin: 0px;
+  line-height: 1.4;
+}
+
+
+
+/* Design Courses */
+.designInfo {
+  text-align: center;
+}
+
+/* students */
+.staffImageContainer {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px;
+  background-color: rgb(255, 201, 180);
+}
+
+
+
+/* Working with business */
+.businessContainer,
+.computerContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  gap: 1rem;
+  align-items: center;
+  background-color: rgb(255, 201, 180);
+}
+.serviceContainer{
+  padding: 1em;
+}
+.GITContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  text-align: center;
+  background-color: rgb(255, 201, 180);
+}
+
+
+
+/* footer */
+.footer {
+  font-size: 1rem;
+  text-align: center;
+  max-width: 100%;
+  background-color: rgb(255, 167, 132);
+}
+
+/* Desktop */
+@media (min-width: 768px) { 
+
+
+/* Home Page */
+.aboutUsContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+  justify-content: space-around;
+}
+.aboutUsInfo {
+  text-align: center;
+  font-size:1.4em;
+  max-width:60%;
+  padding-right: 1em;
+
+}
+.cityMapContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.cityMapInfo {
+  font-size: 2rem;
+  text-align: left;
+  max-width: 100%;
+
+}
+
+
+/* students */
+.studentlayout {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px;
+  background-color: rgb(255, 201, 180);
+}
+.studentsContainer,
+.faciltiesCantorContainer{
+    flex: 1;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 1rem;
+    border: 1px solid rgb(250, 167, 134);
+    background-color: rgb(255, 201, 180);
+    font-size:1.4em;
+}
+.studentfacilitiesList, .studentsInfo{
+  text-align: left;
+  font-size: 1.4em;
+}
+.faciltiesCantorContainer,
+.faciltiesImagesContainer {
+  flex: 1;
+  flex-direction: column;
+  padding: 1rem;
+  gap: 1rem;
+  border: 1px solid rgb(250, 167, 134);
+  background-color: rgb(255, 201, 180);
+  font-size:1.4em;
+}
+.faciltiesImagesContainer, .cantorImage {
+  align-content:center;
+}
+
+/* Facilities */
+
+.facilitiesLayoutContainer {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px;
+  background-color: rgb(255, 201, 180);
+
+}
+
+/* Computer Course */
+.computerContainer {
+  flex-direction: row-reverse;
+  padding: 1em;
+}
+.genericInfo {
+  text-align: center;
+  font-size:1.4em;
+}
+
+/* Design Courses */
+.designInfo {
+  font-size:1.4em;
+}
+
+/* staff */
+.stafflayout {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+  padding: 20px;
+  background-color: rgb(255, 201, 180);
+}
+.staffInfo, .staffImageContainer {
+    flex: 1;
+    flex-direction: row;
+    padding: 1rem;
+    gap: 1rem;
+    background-color: rgb(255, 201, 180);
+    font-size:1.3em;
+    line-height: 1.8;
+}
+
+.staffInfo{
+  padding-top: 5em;
+}
+
+/* Business Page */
+.businessContainer {
+  flex-direction: row;
+}
+.businessInfo {
+  font-size:1.4em;
+  text-align: center;
+}
+.serviceContainer {
+  flex-direction: row;
+  padding: 1em;
+}
+.serviceInfo {
+  font-size: 1.2rem;
+  text-align: center;
+}
+.GITContainer {
+  padding: 0.5em;
+}
+
+/* footer */
+.footer {
+    font-size: 1.5rem;
+
+  }
+}
