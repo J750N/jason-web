@@ -3,7 +3,7 @@ nav {
     font-family: Arial, sans-serif;
 }
 
-/* Container styling */
+/* Navbar container styling */
 nav {
     position: relative;
     background-color: #9e7209;
@@ -14,7 +14,7 @@ nav {
     
 }
 
-/* Burger Icon - Visible on mobile */
+/* Burger drop down icon - only visible on mobile */
 .burger {
     display: block;
     font-size: 1.5em;
@@ -24,7 +24,7 @@ nav {
     border-color: black;
 }
 
-/* Cantor Logo On NavBar */
+/* Cantor College logo on the navbar */
 .logo { 
     max-width: 100;
     height: auto;
@@ -58,6 +58,8 @@ menu {
     padding: 0;
 }
 
+
+/* menu animation */
 menu.active {
     transition: max-height 0.5s ease;
     max-height: 400px;
@@ -74,6 +76,7 @@ menu li a {
     text-decoration: none;
 }
 
+/* hovering over the links */
 menu li a:hover {
     background-color: #966b07;
 }

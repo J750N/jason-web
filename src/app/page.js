@@ -41,7 +41,7 @@ export default function Home() {
           alt="City Map"
           placeholder="blur"
           className="cityMapImage"
-          layout="intrinsic" /* Automatically adjusts size */
+          layout="intrinsic" /* automatically adjusts the size for mobile web */
         />
         <div className={styles.cityMapInfo}>
           <p><strong>Cantor College</strong></p>

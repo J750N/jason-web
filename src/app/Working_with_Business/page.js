@@ -17,7 +17,7 @@ const Working_with_Business = () =>{
           alt="Business"
           placeholder="blur"
           className="businessImage"
-          layout="intrinsic" /* Automatically adjusts size */
+          layout="intrinsic"
         />
       <div className={styles.businessInfo}>
         <p><strong>Partner with Cantor College:Unlock Expertise, Innovation, and Growth</strong> At Cantor College, we believe in the power of collaboration between education and industry. 
