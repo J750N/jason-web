@@ -1,6 +1,6 @@
 import styles from '../page.module.css';
 import Image from 'next/image';
-import designImage from '/public/design.jpeg';
+import designImage from '/images/design.jpeg';
 
 
 export const metadata = {

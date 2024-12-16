@@ -1,6 +1,6 @@
 import styles from '../page.module.css';
 import Image from 'next/image';
-import cantorImage from '/public/cantor-building.jpg';
+import cantorImage from '/images/cantor-building.jpg';
 
 
 export const metadata = {

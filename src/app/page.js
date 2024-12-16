@@ -1,7 +1,7 @@
 import styles from './page.module.css';
 import Image from 'next/image';
-import cityMapImage from '/public/citymap.jpg';
-import aboutUsImage from '/public/about-us.jpeg';
+import cityMapImage from '/images/citymap.jpg';
+import aboutUsImage from '/images/about-us.jpeg';
 
 
 export const metadata = {

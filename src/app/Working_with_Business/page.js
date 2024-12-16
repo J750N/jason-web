@@ -1,6 +1,6 @@
 import styles from '../page.module.css';;
 import Image from 'next/image';
-import businessImage from '/public/business.png';
+import businessImage from '/images/business.png';
 
 export const metadata = {
     title: "Working with business",

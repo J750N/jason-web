@@ -1,6 +1,6 @@
 import styles from '../page.module.css';
 import Image from 'next/image';
-import computerImage from '/public/computer.jpeg';
+import computerImage from '/images/computer.jpeg';
 
 
 export const metadata = {

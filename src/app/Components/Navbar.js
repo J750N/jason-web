@@ -2,7 +2,7 @@
 import Link from 'next/link';
 import "./Navbar.css";
 import Image from 'next/image';
-import logo from '/public/logo.png';
+import logo from '/images/logo.png';
 import React, { useState } from "react";
 const Navbar = () =>{
     const [menuOpen, setMenuOpen] = useState(false);

@@ -1,6 +1,6 @@
 import styles from '../page.module.css';
 import Image from 'next/image';
-import staffImage from '/public/staff.jpg';
+import staffImage from '/images/staff.jpg';
 
 export const metadata = {
     title: "Staff",
