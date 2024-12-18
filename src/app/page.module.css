@@ -81,6 +81,36 @@
   text-align: center;
 }
 
+/* courses table */
+
+.table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table th, .table td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+}
+
+.tableHeader{
+  background-color: #DF8907;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.tableRow1{
+  background-color: #F5D098;
+  font-size: 15px;
+}
+
+.tableRow2{
+  background-color: #cea364;
+  font-size: 15px;
+}
+
+
 /* staff */
 .staffImageContainer {
   display: flex;
