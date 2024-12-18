@@ -199,7 +199,7 @@ const Computing_Courses = () =>{
                 <td>Computing</td>
                 <td>true</td>
             </tr>
-            <tr className={styles.tableRow}>
+            <tr className={styles.tableRow2}>
                 <td>Computer Science with Foundation Year</td>
                 <td>Undergraduate</td>
                 <td>Gain a degree in computer science, with an initial foundation year to prepare for the course.</td>

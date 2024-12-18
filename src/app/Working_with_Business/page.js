@@ -34,7 +34,7 @@ const Working_with_Business = () =>{
                 <p><strong>4. Internships and Graduate Recruitment</strong> Gain access to a pool of highly skilled and motivated students ready to contribute to your business. Our internship and recruitment services can connect you with top talent in computing, design, and technology, providing you with candidates who are equipped with the latest industry knowledge and practical experience.</p>
                 <p><strong>5. Event Hosting and Sponsorship</strong> Cantor College hosts a range of events throughout the year, including hackathons, design challenges, and technology expos. We offer businesses the opportunity to sponsor events or collaborate in their organization, giving you direct access to the brightest minds in the field and the chance to showcase your brand to our community.</p>
             <h1 className={styles.sectionTitles}>Why Partner with Cantor College?</h1>
-          <ul>
+          <ul className={styles.bulletpointBuisness}>
             <li className={styles.partnerInfo}><strong>Cutting-Edge Expertise:</strong> Our programs are at the forefront of industry trends, ensuring that our services reflect the latest advancements in technology and design.</li>
             <li><strong>Innovation at the Core:</strong> We foster a culture of creativity and problem-solving, making us the ideal partner for businesses seeking innovative solutions.</li>
             <li><strong>Tailored Solutions:</strong> We understand that every business is unique. Our services are customized to meet your specific objectives and challenges.</li>
